@@ -1,0 +1,42 @@
+# Зависимости (устанавливаются через pip/npm)
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Секреты и пароли — НИКОГДА!
+.env
+.env.local
+secrets.yml
+*.pem
+*.key
+
+# Скомпилированный код
+dist/
+build/
+*.exe
+*.pyc
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Системные файлы ОС
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# IDE конфиги
+.vscode/
+.idea/
+
+# Базы данных (локальные)
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+config.py
+config.py.local
+secrets.yml
+*.pem
+*.key
