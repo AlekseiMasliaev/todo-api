@@ -1,4 +1,4 @@
-# Todo API Experimental
+# Todo API
 
 REST API для управления задачами. Бэкенд для приложения Taskly.
 
