@@ -23,7 +23,7 @@ def create_task():
     # TODO: добавить проверку и значение по умолчанию
     task = Task(
         title=data.get('title'),
-        description=data.get('description'),
+        description=data.get('description') or '',
         completed=data.get('completed', False)
     )
     db.session.add(task)
